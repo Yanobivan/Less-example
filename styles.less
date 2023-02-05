@@ -4,20 +4,20 @@
 @fontSizeP: @fontSizeh3 - 3px;
 
 .bordered {
-    border-top: dotted 1px black;
-    border-bottom: solid 2px black;
-  }
+  border-top: dotted 1px black;
+  border-bottom: solid 2px black;
+}
 
 .flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 // Вкладеність
 body {
-   min-height: @heightBody;
-// Mixins (міксини)
-   .flex();
+  min-height: @heightBody;
+  // Mixins (міксини)
+  .flex();
   .container {
     width: 100%;
     max-width: 800px;
@@ -25,12 +25,11 @@ body {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
     .box {
       flex-direction: column;
       width: 100%;
       border-radius: 5px;
-// Mixins (міксини)
+      // Mixins (міксини)
       .flex();
       h3 {
         font-size: @fontSizeh3;
@@ -40,11 +39,9 @@ body {
         padding: 10px 20px;
         border-radius: 5px;
         p {
-            font-size: @fontSizeP;
-          }
+          font-size: @fontSizeP;
+        }
       }
     }
   }
 }
-
-
