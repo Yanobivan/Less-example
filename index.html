@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet/less" href="styles.less" />
+    <script src="less.min.js"></script>
+    <title>Less lesson</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h1>Less lesson</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          voluptates, quod, quia, voluptate quae voluptatem quibusdam
+          consequuntur quos voluptatum quas quidem. Quisquam, quae. Quisquam
+          voluptates, quod, quia, voluptate quae voluptatem quibusdam
+          consequuntur quos voluptatum quas quidem. Quisquam, quae.
+        </p>
+        <p>Before</p>
+        <h3>
+          <p>@width: 10px;</p>
+          <p>@height: @width + 10px;</p>
+          <p>#header {</p>
+          <p>width: @width;</p>
+          <p>height: @height;}</p>
+        </h3>
+        <p>After</p>
+        <h3>
+          <p>#header {</p>
+          <p>width: 10px;</p>
+          <p>height: 20px}</p>
+        </h3>
+      </div>
+    </div>
+  </body>
+</html>

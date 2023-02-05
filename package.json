@@ -1,0 +1,22 @@
+{
+  "name": "less-example",
+  "version": "1.0.0",
+  "description": "Компиляция в браузере (less.js)",
+  "main": "index.js",
+  "scripts": {
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yanobivan/less-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yanobivan/less-example/issues"
+  },
+  "homepage": "https://github.com/Yanobivan/less-example#readme",
+  "dependencies": {
+    "less": "^4.1.3"
+  }
+}
